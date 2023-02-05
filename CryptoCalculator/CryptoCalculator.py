@@ -106,7 +106,7 @@ class Window1():
             font=("Calibri",12)
         )
         self.l1.grid(row=0,column=0)
-        self.dollar_amount = tk.Entry(self.calcFrame,width=20,fg='black')
+        self.dollar_amount = tk.Entry(self.calcFrame,width=20,fg='white')
         self.dollar_amount.grid(row=1,column=0)
 
         self.l2 = tk.Label(
@@ -117,7 +117,7 @@ class Window1():
             font=("Calibri",12)
         )
         self.l2.grid(row=0,column=1)
-        self.dollar_value = tk.Entry(self.calcFrame,width=20,fg='black')
+        self.dollar_value = tk.Entry(self.calcFrame,width=20,fg='white')
         self.dollar_value.grid(row=1,column=1)
 
 
@@ -194,7 +194,7 @@ class Window2():
             font=("Calibri",12)
         )
         self.l1.grid(row=0,column=0)
-        self.token_amount = tk.Entry(self.calcFrame,width=20,fg='black')
+        self.token_amount = tk.Entry(self.calcFrame,width=20,fg='white')
         self.token_amount.grid(row=1,column=0)
 
         self.l2 = tk.Label(
@@ -205,7 +205,7 @@ class Window2():
             font=("Calibri",12)
         )
         self.l2.grid(row=0,column=1)
-        self.dollar_value = tk.Entry(self.calcFrame,width=20,fg='black')
+        self.dollar_value = tk.Entry(self.calcFrame,width=20,fg='white')
         self.dollar_value.grid(row=1,column=1)
 
 
@@ -303,7 +303,7 @@ class Window3():
             font=("Calibri",12)
         )
         self.l1.grid(row=0,column=0)
-        self.dollar_value = tk.Entry(self.calcFrame,width=20,fg='black')
+        self.dollar_value = tk.Entry(self.calcFrame,width=20,fg='white')
         self.dollar_value.grid(row=1,column=0,pady=5)
 
         self.calcButton = tk.Button(
